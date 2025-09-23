@@ -9,9 +9,33 @@
 
 ---
 
-## 🛠️ Skills
+## 🛠️ Tech Stack
 
-`HTML`&nbsp;`CSS`&nbsp;`TailwindCSS`&nbsp;`Bootstrap`&nbsp;`Vue`&nbsp;`JavaScript`&nbsp;`PHP`&nbsp;`Laravel`&nbsp;`SQL`&nbsp;`GIT`&nbsp;`GitHub`&nbsp;`Responsive Design`
+```mermaid
+%%{init: {"theme": "neutral"}}%%
+pie showData
+    title Tech Stack (Proficiency)
+    "HTML" : 98
+    "CSS" : 98
+    "Responsive Design" : 98
+    "PHP" : 95
+    "SQL" : 95
+    "GIT" : 95
+    "JavaScript" : 90
+    "Laravel" : 90
+    "Vue" : 90
+    "TailwindCSS" : 90
+    "Bootstrap" : 90
+    "TCPDF" : 90
+    "GitHub" : 90
+```
+
+<details>
+	<summary>Plain list (fallback)</summary>
+
+	`HTML` `CSS` `TailwindCSS` `Bootstrap` `Vue` `JavaScript` `PHP` `Laravel` `SQL` `GIT` `GitHub` `Responsive Design` `TCPDF`
+
+</details>
 
 ---
 
@@ -24,7 +48,8 @@
 
 ---
 
-## � Connect
+
+## 🔗 Connect
 
 - [LinkedIn](https://www.linkedin.com/in/khemark-ocariza-509b71215/)
 - [GitHub](https://github.com/Faithan)

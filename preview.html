@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>README Preview – Faithan</title>
+  <link rel="icon" href="data:," />
+  <style>
+    :root { color-scheme: light dark; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background: Canvas;
+      color: CanvasText;
+    }
+    main { max-width: 860px; padding: 32px 20px 80px; margin: 0 auto; }
+    h1, h2, h3 { line-height: 1.25; }
+    hr { border: 0; border-top: 1px solid rgba(127,127,127,.3); margin: 24px 0; }
+    pre { background: rgba(127,127,127,.08); padding: 12px; border-radius: 8px; overflow: auto; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    details { background: rgba(127,127,127,.06); padding: 8px 12px; border-radius: 8px; }
+    .mermaid { margin: 12px 0; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main id="app">Loading preview…</main>
+
+  <!-- Minimal client-side Markdown + Mermaid rendering for local preview -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+  <!-- Embed your README content here; this avoids file:// fetch issues -->
+  <script id="readme-md" type="text/markdown">
+# Khemark Ocariza
+
+<sub>Web Developer | Full Stack | Minimalist</sub>
+
+---
+
+👋 Hi, I'm Khemark — I craft seamless digital experiences, blending design and functionality for the web. I love building both the front-end and back-end of web applications, always with a focus on clarity, usability, and impact.
+
+---
+
+## 🛠️ Tech Stack
+
+```mermaid
+%%{init: {"theme": "neutral"}}%%
+pie showData
+    title Tech Stack (Proficiency)
+    "HTML" : 98
+    "CSS" : 98
+    "Responsive Design" : 98
+    "PHP" : 95
+    "SQL" : 95
+    "GIT" : 95
+    "JavaScript" : 90
+    "Laravel" : 90
+    "Vue" : 90
+    "TailwindCSS" : 90
+    "Bootstrap" : 90
+    "TCPDF" : 90
+    "GitHub" : 90
+```
+
+<details>
+  <summary>Plain list (fallback)</summary>
+
+  `HTML` `CSS` `TailwindCSS` `Bootstrap` `Vue` `JavaScript` `PHP` `Laravel` `SQL` `GIT` `GitHub` `Responsive Design` `TCPDF`
+
+</details>
+
+---
+
+## ✨ Projects
+
+- **[Coolfolio](https://faithan.github.io/Coolfolio/):** Minimalist portfolio to showcase my growth, skills, and projects as a developer.
+- **[Royale](https://faithan.github.io/Coolfolio/):** Online request and order system for Royale Tailoring (BSCS Capstone).
+- **[Estregan Beach Resort](https://faithan.github.io/Coolfolio/):** Online reservation system for a local resort (BSCS coursework).
+- **CKCM Grading System:** Web-based platform for managing and calculating student grades (Internship project).
+
+---
+
+## 🔗 Connect
+
+- [LinkedIn](https://www.linkedin.com/in/khemark-ocariza-509b71215/)
+- [GitHub](https://github.com/Faithan)
+- [Instagram](https://www.instagram.com/m0n0s_/)
+- [Portfolio](https://faithan.github.io/Coolfolio/)
+
+---
+
+<sub>Open to new opportunities. Let’s connect!</sub>
+  </script>
+
+  <script>
+    (function () {
+      const md = document.getElementById('readme-md').textContent;
+      const app = document.getElementById('app');
+
+      // Render Markdown
+      const html = marked.parse(md, { gfm: true });
+      app.innerHTML = html;
+
+      // Replace mermaid code blocks with <div class="mermaid"> to render diagrams
+      const codeBlocks = app.querySelectorAll('pre > code.language-mermaid');
+      codeBlocks.forEach(code => {
+        const pre = code.parentElement;
+        const container = document.createElement('div');
+        container.className = 'mermaid';
+        container.textContent = code.textContent;
+        pre.replaceWith(container);
+      });
+
+      // Initialize and render Mermaid
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral' });
+      mermaid.run({ querySelector: '.mermaid' });
+    })();
+  </script>
+</body>
+</html>
