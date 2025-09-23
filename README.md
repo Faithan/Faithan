@@ -11,24 +11,9 @@
 
 ## 🛠️ Tech Stack
 
-```mermaid
-%%{init: {"theme": "neutral", "pie": {"innerRadius": 60, "strokeWidth": 2}}}%%
-pie showData 
-    title Tech Stack (Proficiency)
-    "HTML 🔤" : 98
-    "CSS 🎨" : 98
-    "Responsive Design 📱" : 98
-    "PHP 🐘" : 95
-    "SQL 🗄️" : 95
-    "GIT 🌿" : 95
-    "JavaScript 🧩" : 90
-    "Laravel 🔺" : 90
-    "Vue 🟩" : 90
-    "TailwindCSS 💨" : 90
-    "Bootstrap 🅱️" : 90
-    "TCPDF 🧾" : 90
-    "GitHub 🐙" : 90
-```
+<p align="center">
+    <img src="./assets/tech-stack-bars.svg" alt="Tech Stack — Proficiency" width="900" />
+</p>
 
 <details>
 	<summary>Plain list (fallback)</summary>
