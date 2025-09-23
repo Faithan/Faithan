@@ -11,129 +11,24 @@
 
 ## 🛠️ Tech Stack
 
-<!-- Simple, reliable HTML bars (works on GitHub) -->
-<table>
-    <tbody>
-        <tr>
-            <td width="160"><strong>HTML</strong></td>
-            <td width="520">
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:98%;height:100%"></div>
-                </div>
-            </td>
-            <td width="60" align="right">98%</td>
-        </tr>
-        <tr>
-            <td><strong>CSS</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:98%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">98%</td>
-        </tr>
-        <tr>
-            <td><strong>Responsive Design</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:98%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">98%</td>
-        </tr>
-        <tr>
-            <td><strong>PHP</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:95%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">95%</td>
-        </tr>
-        <tr>
-            <td><strong>SQL</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:95%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">95%</td>
-        </tr>
-        <tr>
-            <td><strong>GIT</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:95%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">95%</td>
-        </tr>
-        <tr>
-            <td><strong>JavaScript</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:90%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">90%</td>
-        </tr>
-        <tr>
-            <td><strong>Laravel</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:90%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">90%</td>
-        </tr>
-        <tr>
-            <td><strong>Vue</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:90%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">90%</td>
-        </tr>
-        <tr>
-            <td><strong>TailwindCSS</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:90%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">90%</td>
-        </tr>
-        <tr>
-            <td><strong>Bootstrap</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:90%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">90%</td>
-        </tr>
-        <tr>
-            <td><strong>TCPDF</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:90%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">90%</td>
-        </tr>
-        <tr>
-            <td><strong>GitHub</strong></td>
-            <td>
-                <div style="background:#e5e7eb;height:8px;border-radius:999px;overflow:hidden;">
-                    <div style="background:linear-gradient(90deg,#6366f1,#22d3ee);width:90%;height:100%"></div>
-                </div>
-            </td>
-            <td align="right">90%</td>
-        </tr>
-    </tbody>
-  
-</table>
+```mermaid
+%%{init: {"theme": "neutral", "pie": {"innerRadius": 60, "strokeWidth": 2}}}%%
+pie showData 
+    title Tech Stack (Proficiency)
+    "HTML 🔤" : 98
+    "CSS 🎨" : 98
+    "Responsive Design 📱" : 98
+    "PHP 🐘" : 95
+    "SQL 🗄️" : 95
+    "GIT 🌿" : 95
+    "JavaScript 🧩" : 90
+    "Laravel 🔺" : 90
+    "Vue 🟩" : 90
+    "TailwindCSS 💨" : 90
+    "Bootstrap 🅱️" : 90
+    "TCPDF 🧾" : 90
+    "GitHub 🐙" : 90
+```
 
 <details>
 	<summary>Plain list (fallback)</summary>
