@@ -33,14 +33,7 @@
 
 ---
 
-## 🏆 Achievements & Stats
-
-<p align="center">
-	<!-- GitHub Profile Trophy -->
-	<a href="https://github.com/ryo-ma/github-profile-trophy" title="GitHub Profile Trophies">
-		<img src="https://github-profile-trophy.vercel.app/?username=Faithan&theme=onedark&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
-	</a>
-</p>
+## 🏆 Public Achievements & Stats add (Private contributions from private organization are not include and private repos )
 
 <p align="center">
 	<!-- Overall Stats -->
