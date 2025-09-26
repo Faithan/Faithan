@@ -36,6 +36,13 @@
 ## 🏆 Public Achievements & Stats
 
 <p align="center">
+  <!-- GitHub Profile Trophy -->
+  <a href="https://github.com/ryo-ma/github-profile-trophy" title="GitHub Profile Trophies">
+    <img src="https://github-profile-trophy.vercel.app/?username=Faithan&theme=onedark&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
+  </a>
+</p>
+
+<p align="center">
 	<!-- Overall Stats -->
 	<img height="160" src="https://github-readme-stats.vercel.app/api?username=Faithan&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="Faithan's GitHub Stats (with private)" />
 	<!-- Most Used Languages -->
@@ -47,7 +54,7 @@
 	<img height="190" src="https://streak-stats.demolab.com?user=Faithan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
-<sub><em>Note:</em> Private repositories and Private organization contributions are not include</sub>
+<sub><em>Note:</em> Private repositories and private organization contributions are not included.</sub>
 
 ---
 
