@@ -7,20 +7,6 @@
 
 👋 Hi, I'm Khemark — I craft seamless digital experiences, blending design and functionality for the web. I love building both the front-end and back-end of web applications, always with a focus on clarity, usability, and impact.
 
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-    <img src="./assets/tech-stack-bars.svg" alt="Tech Stack — Proficiency" width="900" />
-</p>
-
-<details>
-	<summary>Plain list (fallback)</summary>
-
-	`HTML` `CSS` `TailwindCSS` `Bootstrap` `Vue` `JavaScript` `PHP` `Laravel` `SQL` `GIT` `GitHub` `Responsive Design` `TCPDF`
-
-</details>
 
 ---
 
@@ -55,6 +41,21 @@
 </p>
 
 <sub><em>Note:</em> Private repositories and private organization contributions are not included.</sub>
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+    <img src="./assets/tech-stack-bars.svg" alt="Tech Stack — Proficiency" width="900" />
+</p>
+
+<details>
+	<summary>Plain list (fallback)</summary>
+
+	`HTML` `CSS` `TailwindCSS` `Bootstrap` `Vue` `JavaScript` `PHP` `Laravel` `SQL` `GIT` `GitHub` `Responsive Design` `TCPDF`
+
+</details>
 
 ---
 
