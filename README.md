@@ -47,6 +47,7 @@
 	<img height="190" src="https://streak-stats.demolab.com?user=Faithan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
+<sub><em>Note:</em> Private repositories and Private organization contributions are not include</sub>
 
 ---
 
