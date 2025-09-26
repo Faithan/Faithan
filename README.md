@@ -51,24 +51,6 @@
 
 ---
 
-### 🔒 Private + Public Language Mix (Self-Hosted)
-
-<em>Generate locally (includes private & org repos you can access):</em>
-
-1. Create a classic PAT or fine-grained token with at least: repo (read), read:org.
-2. In PowerShell (Windows):
-	 <br><code>$Env:GITHUB_TOKEN="YOUR_TOKEN"; node scripts/generate_language_stats.js &gt; assets/private-langs.svg</code>
-3. Commit the new SVG and it will appear below.
-
-<p align="center">
-	<img src="./assets/private-langs.svg" alt="Private + Public Language Mix" />
-</p>
-
-<sub>If the image shows as broken, you haven't generated it yet.</sub>
-
----
-
-
 ## 🔗 Connect
 
 - [LinkedIn](https://www.linkedin.com/in/khemark-ocariza-509b71215/)
