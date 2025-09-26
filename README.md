@@ -33,6 +33,48 @@
 
 ---
 
+## 🏆 Achievements & Stats
+
+<p align="center">
+	<!-- GitHub Profile Trophy -->
+	<a href="https://github.com/ryo-ma/github-profile-trophy" title="GitHub Profile Trophies">
+		<img src="https://github-profile-trophy.vercel.app/?username=Faithan&theme=onedark&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
+	</a>
+</p>
+
+<p align="center">
+	<!-- Overall Stats -->
+	<img height="160" src="https://github-readme-stats.vercel.app/api?username=Faithan&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="Faithan's GitHub Stats (with private)" />
+	<!-- Most Used Languages -->
+	<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Faithan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+	<!-- Streak Stats -->
+	<img height="190" src="https://streak-stats.demolab.com?user=Faithan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<sub><em>Note:</em> Stats card requested with <code>count_private=true</code>; private data appears only if you self-host the service with a GitHub token. Public demo instances ignore that flag. For private repo language breakdown you must self-host (or generate a custom SVG via a GitHub Action).</sub>
+
+---
+
+### 🔒 Private + Public Language Mix (Self-Hosted)
+
+<em>Generate locally (includes private & org repos you can access):</em>
+
+1. Create a classic PAT or fine-grained token with at least: repo (read), read:org.
+2. In PowerShell (Windows):
+	 <br><code>$Env:GITHUB_TOKEN="YOUR_TOKEN"; node scripts/generate_language_stats.js &gt; assets/private-langs.svg</code>
+3. Commit the new SVG and it will appear below.
+
+<p align="center">
+	<img src="./assets/private-langs.svg" alt="Private + Public Language Mix" />
+</p>
+
+<sub>If the image shows as broken, you haven't generated it yet.</sub>
+
+---
+
 
 ## 🔗 Connect
 
