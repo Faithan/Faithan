@@ -33,7 +33,7 @@
 
 ---
 
-## 🏆 Public Achievements & Stats add (Private contributions from private organization are not include and private repos )
+## 🏆 Public Achievements & Stats
 
 <p align="center">
 	<!-- Overall Stats -->
@@ -47,7 +47,6 @@
 	<img height="190" src="https://streak-stats.demolab.com?user=Faithan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
-<sub><em>Note:</em> Stats card requested with <code>count_private=true</code>; private data appears only if you self-host the service with a GitHub token. Public demo instances ignore that flag. For private repo language breakdown you must self-host (or generate a custom SVG via a GitHub Action).</sub>
 
 ---
 
